@@ -1,0 +1,14 @@
+<div class="pokemon-list">
+<app-poke-card
+  *ngFor="let pokemon of pokemons; index as i"
+  [pokemon]="pokemon"
+  [numero]="i+1"
+></app-poke-card>
+</div>
+
+<!--&lt;!&ndash;&ndash;&gt;-->
+<!--<div *ngFor="let pokemon of /pokemons">-->
+<!--&lt;!&ndash;   Pokemon:{{ pokemon }}&ndash;&gt;-->
+
+
+
